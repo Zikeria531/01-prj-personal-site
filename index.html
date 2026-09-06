@@ -2,10 +2,82 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>My Personal Site</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Name | Web Development Student</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <!-- Add your HTML content here -->
+  <!-- The header contains the site title and navigation links. -->
+  <header>
+    <h1>Zikeria Mack</h1>
+    <p>Get to know me!</p>
+
+    <nav>
+      <a href="#about">About Me</a>
+      <a href="#skills">Skills</a>
+      <a href="#interests">Interests</a>
+      <a href="#contact">Contact Me</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- About Me section -->
+    <section id="about">
+      <h2>About Me</h2>
+      <p>
+        Hi! I am a Computer Science student and aspiring software/game developer. I enjoy creating interactive applications and exploring the intersection of technology, design, and user experience.
+      </p>
+      <p>
+        This website will grow as I create new projects in my web development course. Check back soon to see what I make next!
+      </p>
+    </section>
+
+    <!-- Skills section -->
+    <section id="skills">
+      <h2>Skills</h2>
+      <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>Java</li>
+        <li>JavaScript</li>
+        <li>Python</li>
+      </ul>
+    </section>
+
+    <!-- Interests section -->
+    <section id="interests">
+      <h2>Areas of Interest</h2>
+      <ul>
+        <li>Software Engineering</li>
+        <li>Game Development</li>
+        <li>UI/UX Design</li>
+        <li>Frontend Development</li>
+        <li>Web Development</li>
+      </ul>
+    </section>
+
+    <!-- Contact section -->
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <p>I would love to hear from you.</p>
+
+      <form action="#" method="post">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Your Name</p>
+  </footer>
 </body>
 </html>

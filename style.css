@@ -1,1 +1,122 @@
-/* Add you CSS here */
+/* This sets the basic style for the whole page. */
+body {
+	margin: 0;
+	font-family: Arial, sans-serif;
+	line-height: 1.6;
+	color: #243447;
+	background-color: #f4f7f5;
+}
+
+/* The header is the first part visitors see. */
+header {
+	padding: 50px 20px;
+	text-align: center;
+	color: white;
+	background-color: #275d5a;
+}
+
+h1 {
+	margin: 0;
+	font-size: 42px;
+}
+
+header p {
+	margin: 10px 0 25px;
+	font-size: 18px;
+}
+
+/* These links help visitors move between the sections. */
+nav a {
+	display: inline-block;
+	margin: 5px 10px;
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+nav a:hover {
+	color: #f8d49d;
+}
+
+/* Each section has a readable width and comfortable spacing. */
+section {
+	max-width: 800px;
+	margin: 25px auto;
+	padding: 30px;
+	background-color: white;
+	border-left: 5px solid #e28f5b;
+}
+
+h2 {
+	margin-top: 0;
+	color: #275d5a;
+}
+
+/* The skills sit next to each other when there is enough room. */
+ul {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 12px;
+	padding: 0;
+	list-style: none;
+}
+
+li {
+	padding: 8px 14px;
+	color: white;
+	background-color: #438a83;
+	border-radius: 4px;
+}
+
+/* Form controls are displayed one below another for easy reading. */
+label {
+	display: block;
+	margin-top: 15px;
+	font-weight: bold;
+}
+
+input,
+textarea {
+	box-sizing: border-box;
+	width: 100%;
+	margin-top: 5px;
+	padding: 10px;
+	font: inherit;
+	border: 1px solid #aab8b5;
+	border-radius: 4px;
+}
+
+button {
+	margin-top: 20px;
+	padding: 11px 18px;
+	color: white;
+	font: inherit;
+	font-weight: bold;
+	background-color: #e28f5b;
+	border: 0;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+button:hover {
+	background-color: #c87546;
+}
+
+footer {
+	padding: 20px;
+	text-align: center;
+	color: white;
+	background-color: #243447;
+}
+
+/* On small screens, reduce the heading size and section padding. */
+@media (max-width: 600px) {
+	h1 {
+		font-size: 32px;
+	}
+
+	section {
+		margin: 15px 10px;
+		padding: 22px;
+	}
+}
