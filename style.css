@@ -4,7 +4,7 @@ body {
 	font-family: Arial, sans-serif;
 	line-height: 1.6;
 	color: #243447;
-	background-color: #f4f7f5;
+	background-color: #FFDBED;
 }
 
 /* The header is the first part visitors see. */
@@ -12,7 +12,7 @@ header {
 	padding: 50px 20px;
 	text-align: center;
 	color: white;
-	background-color: #275d5a;
+	background-color: #8E93CB;
 }
 
 h1 {
@@ -35,7 +35,7 @@ nav a {
 }
 
 nav a:hover {
-	color: #f8d49d;
+	color: #4C1413;
 }
 
 /* Each section has a readable width and comfortable spacing. */
@@ -44,12 +44,13 @@ section {
 	margin: 25px auto;
 	padding: 30px;
 	background-color: white;
-	border-left: 5px solid #e28f5b;
+	border-left: 5px solid #4C1413;
+	border-radius: 10px;
 }
 
 h2 {
 	margin-top: 0;
-	color: #275d5a;
+	color: #4C1413;
 }
 
 /* The skills sit next to each other when there is enough room. */
@@ -64,8 +65,17 @@ ul {
 li {
 	padding: 8px 14px;
 	color: white;
-	background-color: #438a83;
+	background-color: #F8769C;
 	border-radius: 4px;
+}
+
+/* Each skill has its own icon above its name. */
+.skill-icon {
+	display: block;
+	margin-bottom: 4px;
+	font-size: 24px;
+	font-weight: bold;
+	text-align: center;
 }
 
 /* Form controls are displayed one below another for easy reading. */
